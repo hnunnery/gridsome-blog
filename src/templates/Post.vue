@@ -1,6 +1,6 @@
 <template>
-  <layout>
-    <v-container>
+  <BlogLayout>
+    <v-container class="markdown-body">
       <v-layout row wrap justify-center>
         <v-flex xs12 md10 lg8 mt-2>
           <v-img alt="featured image" :src="$page.post.featuredImage" width="600" class="mx-auto"></v-img>
@@ -9,7 +9,7 @@
         </v-flex>
       </v-layout>
     </v-container>
-  </layout>
+  </BlogLayout>
 </template>
 
 <page-query>

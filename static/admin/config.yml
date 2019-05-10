@@ -14,4 +14,11 @@ collections:
     fields: # The fields for each document, usually in front matter
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Featured Image", name: "featuredImage", widget: "image" }
+      - {
+          label: "date",
+          name: date",
+          widget: "date",
+          default: "",
+          format: "MMM DD YY",
+        }
       - { label: "Body", name: "body", widget: "markdown" }

@@ -3,6 +3,7 @@
 
 import Vuetify from "vuetify";
 import DefaultLayout from "~/layouts/Default.vue";
+import BlogLayout from "~/layouts/Blog.vue";
 
 import "vuetify/dist/vuetify.min.css";
 
@@ -15,4 +16,5 @@ export default function(Vue, { router, head, isClient }) {
   Vue.use(Vuetify);
   // Set default layout as a global component
   Vue.component("Layout", DefaultLayout);
+  Vue.component("BlogLayout", BlogLayout);
 }
