@@ -3,7 +3,7 @@
     <v-container class="markdown-body">
       <v-layout row wrap justify-center>
         <v-flex xs12 md10 lg8 mt-2>
-          <v-img :src="$page.post.image" width="600" class="mx-auto" alt="blog"></v-img>
+          <g-image :src="$page.post.image" width="600" class="mx-auto" alt="blog"/>
           <h1 class="display-2 red--text text--darken-3 mb-4">{{ this.$page.post.title }}</h1>
           <div v-html="$page.post.content"></div>
         </v-flex>
