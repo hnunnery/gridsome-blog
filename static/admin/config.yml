@@ -19,6 +19,6 @@ collections:
           name: date",
           widget: "date",
           default: "",
-          format: "MMM DD YY",
+          format: "MMM DD YYYY",
         }
       - { label: "Body", name: "body", widget: "markdown" }
